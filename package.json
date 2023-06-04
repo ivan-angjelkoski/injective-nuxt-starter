@@ -1,0 +1,34 @@
+{
+  "name": "nuxt-app",
+  "private": true,
+  "scripts": {
+    "build": "nuxt build",
+    "dev": "nuxt dev",
+    "generate": "nuxt generate",
+    "preview": "nuxt preview",
+    "postinstall": "nuxt prepare"
+  },
+  "devDependencies": {
+    "@bangjelkoski/vite-plugin-node-polyfills": "^0.0.2",
+    "@nuxtjs/tailwindcss": "^6.7.0",
+    "@types/node": "^18",
+    "nuxt": "^3.5.2"
+  },
+  "dependencies": {
+    "@bangjelkoski/node-stdlib-browser": "^0.0.1",
+    "@injectivelabs/networks": "^1.11.0",
+    "@injectivelabs/sdk-ts": "^1.11.0",
+    "@injectivelabs/ts-types": "^1.11.0",
+    "@injectivelabs/utils": "^1.11.0",
+    "@injectivelabs/wallet-ts": "^1.11.0",
+    "@pinia/nuxt": "^0.4.11",
+    "@vueuse/nuxt": "^10.1.2",
+    "buffer": "^6.0.3",
+    "pinia": "^2.1.3"
+  },
+  "resolutions": {
+    "@ethereumjs/tx": "^4.1.1",
+    "**/libsodium": "npm:@bangjelkoski/noop",
+    "**/libsodium-wrappers": "npm:@bangjelkoski/noop"
+  }
+}
